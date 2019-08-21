@@ -7,12 +7,12 @@ wget https://github.com/DNI9/patches_Mtk/raw/master/external_nvram.patch
 patch -p1 < external_nvram.patch
 cd .. && cd .. && cd frameworks/av
 wget https://github.com/DNI9/patches_Mtk/raw/master/frameworks_av_audioflinger.patch
-wget https://github.com/DNI9/patches_Mtk/raw/master/frameworks_av_camera.patch
-wget https://github.com/DNI9/patches_Mtk/raw/master/frameworks_av_libmedia.patch
-wget https://github.com/DNI9/patches_Mtk/raw/master/frameworks_av_mediaprofile.patch
 patch -p1 < frameworks_av_audioflinger.patch
+wget https://github.com/DNI9/patches_Mtk/raw/master/frameworks_av_camera.patch
 patch -p1 < frameworks_av_camera.patch
+wget https://github.com/DNI9/patches_Mtk/raw/master/frameworks_av_libmedia.patch
 patch -p1 < frameworks_av_libmedia.patch
+wget https://github.com/DNI9/patches_Mtk/raw/master/frameworks_av_mediaprofile.patch
 patch -p1 < frameworks_av_mediaprofile.patch
 cd .. && cd native
 wget https://github.com/DNI9/patches_Mtk/raw/master/frameworks_native_ui.patch
