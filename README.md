@@ -1,3 +1,2 @@
 # scripts
-originally created by Nunnu
-https://github.com/PainKiller3/Script/
+> Small set of scripts :/
