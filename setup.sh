@@ -17,3 +17,4 @@ chmod a+x ~/bin/repo
 
 git config --global user.email "itsr9boi@gmail.com"
 git config --global user.name "DNI9"
+wget https://github.com/DNI9/scripts/raw/master/gdrive.sh
