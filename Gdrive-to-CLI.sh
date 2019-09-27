@@ -8,7 +8,7 @@ if [ -f "$FILE_PATH" ]; then
     echo -e "${CLR_CYA}>> Enter File ID: ${CLR_CYA}"
     read answer
     gdrive download $answer
-        echo -e "${CLR_WHITE}>> DONE ${CLR_WHITE}"
+    echo -e "${CLR_WHITE}>> DONE ${CLR_WHITE}"
 else 
     wget https://github.com/gdrive-org/gdrive/releases/download/2.1.0/gdrive-linux-x64
     sudo cp gdrive-linux-x64 /usr/local/bin/gdrive;
@@ -17,5 +17,5 @@ else
     echo -e "${CLR_CYA}>> Enter File ID: ${CLR_CYA}"
     read answer
     gdrive download $answer
-        echo -e "${CLR_WHITE}>> DONE ${CLR_WHITE}"
+    echo -e "${CLR_WHITE}>> DONE ${CLR_WHITE}"
 fi
