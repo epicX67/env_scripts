@@ -1,4 +1,5 @@
 #!/bin/bash
+# Script by DNI9 :)
 CLR_CYA=$CLR_RST$(tput setaf 6)
 CLR_WHITE=$CLR_RST$(tput setaf 7)
 CUR_DIR=`pwd`
