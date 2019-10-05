@@ -17,4 +17,4 @@ chmod a+x ~/bin/repo
 
 git config --global user.email "souravgain605@gmail.com"
 git config --global user.name "epicX67"
-wget https://github.com/DNI9/scripts/raw/master/gdrive.sh
+wget https://github.com/epicX/env_scripts/raw/master/gdrive.sh
